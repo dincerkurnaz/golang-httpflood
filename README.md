@@ -1,6 +1,8 @@
 # Golang-httpflood ![](https://img.shields.io/badge/Version-2.0-brightgreen.svg) ![](https://img.shields.io/badge/license-MIT-blue.svg)
 Using Golang(net/socket) to httpflood
 
+# ./flooder "https://www.test.com/" 400 get 100 nil
+
 **Warning: Please use command "ulimit -n 999999" before use this in linux**
 
 **1 Threads =  1 connection, 100~300 connections can down a normal website in 10s(specially apache server LOL)**
